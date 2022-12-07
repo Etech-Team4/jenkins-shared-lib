@@ -1,4 +1,4 @@
-def paypal(String repoUrl){
+def call(String repoUrl){
     pipeline{
         agent any
         stages{
